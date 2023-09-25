@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body, html{
+    overflow-x: hidden;
+}
+body{
+   background-image: url('patternBackground.jpg');
+   background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+    display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+max-height: auto;
+flex-direction: column;
+
+}
+h1{
+    margin: 10px 0px;
+    color: #040483;
+}
+.mainBox{
+background-color: white;
+width: 40%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 20px;
+border-radius: 10px;
+border: 10px groove #3768c6;
+}
+input{
+    width: 60%;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 3px ridge #40a5c7;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#showPasswordBox{
+    width: 60%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: 3px ridge #40a5c7;
+    color: rgba(94, 93, 93, 0.995);
+    font-size: 14px;
+}
+
+button{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 3px ridge #40a5c7;
+    font-size: 18px;
+    background-color: #3768c6;
+    color: white;
+}
+button:hover{
+background-color: #40a5c7 ;
+}

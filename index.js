@@ -2,6 +2,7 @@ function generatePassword(){
     var firstName = document.getElementById("fName").value
     var lastName = document.getElementById("lName").value 
     var dob = document.getElementById("DOB").value
+    var showPassword = document.getElementById('showPasswordBox');
     //we use slice and position to pick only first 2 letter of name
     //part 1 get first 2 alphabets
     var part1 = firstName.slice(0,2)
@@ -14,6 +15,8 @@ console.log(dob)
     var date = dob.split("-")
     var part3 = date[0]
     var part4 = Math.floor(Math.random() * (300 - 100) + 100);
-alert(part1+part2+part3+part4)
+// alert(part1+part2+part3+part4)
+
+showPassword.innerText = part1+part2+part3+part4
 
 }
